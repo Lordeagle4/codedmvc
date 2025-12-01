@@ -16,7 +16,7 @@ try {
     $middlewareDirectory = './src/Middleware';
     $middlewareFiles = glob("$middlewareDirectory/*middleware.php");
     foreach ($middlewareFiles as $middlewareFile) {
-        include_once $middlewareFile;
+        //include_once $middlewareFile;
         $className = 'Codedwebltd\\Microservice\\Middleware\\' . pathinfo($middlewareFile, PATHINFO_FILENAME);
 
         if (class_exists($className)) {

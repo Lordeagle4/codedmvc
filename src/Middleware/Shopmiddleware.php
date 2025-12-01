@@ -16,7 +16,7 @@ class Shopmiddleware {
     **/
     public function startShopmiddleware()
     {
-        
+        //var_dump("Shop Middleware Initialized");
     }
 }
 

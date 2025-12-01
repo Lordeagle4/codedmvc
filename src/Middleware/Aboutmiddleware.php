@@ -16,7 +16,7 @@ class Aboutmiddleware {
     **/
     public function startAboutmiddleware()
     {
-        
+        //var_dump("About Middleware Initialized");
     }
 }
 
